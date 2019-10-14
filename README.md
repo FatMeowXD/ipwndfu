@@ -1,6 +1,6 @@
 ![](repo/ipwndfu.png)
 # Open-source jailbreaking tool for many iOS devices
-
+# This is a fork of ipwndfu to have 12.4 t8015 verbose boot. Not that verbose boot matters but still, here it is. 
 
 **Read [disclaimer](#disclaimer) before using this software.*
 
